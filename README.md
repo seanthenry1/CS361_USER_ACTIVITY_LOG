@@ -4,7 +4,7 @@ CS361 USER ACTIVITY LOG
 Microservice communicates with main program through REST API to generate a report on end user activity.
 
 ## REQUEST DATA
-Client will send an HTTP post request to /reports. The microservice will then parse and log the request body into a JSON file named activityLog.json. 
+Client will send an HTTP post request to /activity. The microservice will then parse and log the request body into a JSON file named activityLog.json. 
 
 ```javascript
 fetch('http://localhost:5000/activity', {
