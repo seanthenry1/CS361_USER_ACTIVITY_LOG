@@ -17,7 +17,7 @@ fetch('http://localhost:5000/activity', {
 ```
 
 ## RECEIVE DATA
-Client will send an HTTP get request to /report. The microservice will then send a response with a JSON file in the HTTP response. Then the client will write this response to a JSON file name reportLog.json.
+Client will send an HTTP get request to /report. The microservice will return JSON data in the HTTP response. Then the client will write this response to a JSON file named reportLog.json.
 
 ```javascript
 fetch("http://localhost:5000/report", {
